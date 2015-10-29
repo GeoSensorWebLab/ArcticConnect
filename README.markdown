@@ -62,3 +62,20 @@ This is the correct output. Now you can run the local server to preview your cha
     $ jekyll server
 
 And open [http://localhost:4000/ArcticConnect/](http://localhost:4000/ArcticConnect/) to preview the site changes. Once your changes look good, use Git to commit them to your local repository and then push those changes to GitHub on the `gh-pages` branch.
+
+## Writing Posts
+
+Posts can be written with a mixture of Markdown and HTML. They are kept in the `_posts` directory and the name of the file is the slug in the URL with the date included. Dates are in ISO8601 order. Be sure to include the following stanza at the top of the post to customize the date and page title:
+
+    ---
+    layout: post
+    title: "Technical Blog Started"
+    date: 2015-10-29
+    categories:
+    ---
+
+Changing the layout could be used to have a special layout for certain posts.
+
+## Acknowledgements
+
+This site is based on the ["Polar Bear" theme](https://github.com/diezcami/polar-bear-theme) by Camille Diez ([@diezcami](https://github.com/diezcami)).
