@@ -10,21 +10,29 @@ This page contains the information to understand the Arctic Connect project/plat
 
 Arctic Connect is a platform with multiple services. These services combine to provide a set of useful tools for Arctic researchers and communities.
 
-#### Arctic Bio Map
+### Arctic Bio Map
 
 Arctic BioMap (ABM) enables members of the scientific community and northern residents to contribute observations on arctic animal species for the purpose of biodiversity monitoring, assessment, research, management and education. It consists of a mobile client, an API service (Arctic Bio Map Server), and a visualization service (Arctic Bio Map Portal).
 
-#### Arctic Scholar
+Arctic Bio Map is currently a private service. This is to protect the privacy of the community members who are submitting data. We are in consultations with our community partners to find a solution to making the bio-diversity sightings data public or available on request.
+
+### Arctic Scholar
 
 Arctic Scholar enables researchers, educators, interested private sector entities, government agencies, and the general public to access and share arctic data and information contained in assorted formats including publications, grey literature, research licenses, photo archives, field notes, and project metadata from arctic field stations. It takes data from the ASTIS catalog and geographically indexes the results using the Arctic Scholar service. The data is then visualized using the Arctic Scholar Portal service.
 
-#### Arctic Sensor Web
+Arctic Scholar is accessible through our [Elastic Search instance](http://scholar.arcticconnect.org/) under the [`arctic` index](http://scholar.arcticconnect.org/arctic/_search). You can also browse it through our [PolarMap.js-backed frontend to Arctic Scholar](http://records.arcticconnect.org/).
+
+### Arctic Sensor Web
 
 Arctic Sensor Web (ASW) enables research stations around the pan-Arctic to connect their sensors, including those that provide near-real time data, to a cloud service for visualization, information sharing, and collaborative analysis. It has a database back-end based on the GeoCENS RPI, and a frontend (Arctic Sensor Web Workbench) based on the GeoCENS RPI workbench.
 
-#### Arctic Web Map
+The [Arctic Sensor Web portal](http://sensorweb.arcticconnect.org) is online and lists our most popular international sensor stations.
+
+### Arctic Web Map
 
 Arctic Web Map (AWM) provides an Arctic-specific web mapping tool allowing researchers to customize map projections for scientifically accurate visualization and analysis, a function that is critical for arctic system research but missing in existing web mapping platforms.  It provides a visually appealing tool for education and outreach to a wider audience. It is built on the same open-source mapping stack as OpenStreetMap, combining OpenStreetMap data with CanVec and Natural Earth Data. The style data is open-source (Arctic Web Map Style). The tile API can be accessed directly via the same API as OpenStreetMap, or via the PolarMap.js JavaScript library for web browsers.
+
+Please see the [Arctic Web Map site](http://webmap.arcticconnect.org) for more detailed information on the source data, usage, license, and PolarMap.js (our Leaflet plugin).
 
 ### Download and Source
 
