@@ -9,7 +9,8 @@ layout: default
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        {% assign author = site.data.people[post.author] %}
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }} • {{ author.name }}</span>
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         <p>{{ post.content }}</p>
       </li>
