@@ -1,5 +1,8 @@
 # Site settings
 title: ArcticConnect
+# titleHTML allows us to sneak a word break into the main page and not have it
+# visible in the <title> element
+titleHTML: Arctic<wbr>Connect
 email: info@arcticconnect.org
 description: > # this means to ignore newlines until "baseurl:"
   A Network-Enabled Platform for Arctic Research and Information Sharing
