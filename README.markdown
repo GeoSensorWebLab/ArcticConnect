@@ -76,6 +76,10 @@ Posts can be written with a mixture of Markdown and HTML. They are kept in the `
 
 Changing the layout could be used to have a special layout for certain posts.
 
+## Moving Off GitHub Pages
+
+If we need to move this site off GitHub Pages, we can use the [jekyll gem](http://jekyllrb.com) to generate a static site from the repository and publish that to a web server. There is also a [Docker image for Jekyll](https://hub.docker.com/r/jekyll/jekyll/) that could be integrated to simplify deployments.
+
 ## Acknowledgements
 
 This site is based on the ["Polar Bear" theme](https://github.com/diezcami/polar-bear-theme) by Camille Diez ([@diezcami](https://github.com/diezcami)).
