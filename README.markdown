@@ -26,7 +26,12 @@ This will create a directory named ArcticConnect with all the site assets and Gi
 
 The output will vary depending on your machine. The version of Ruby is not too important, as long as it is 2.0 or newer. If you get a message about `ruby` not being found or an unknown command, then your shell is not able to find the Ruby executable.
 
-Next we [install Jekyll](http://jekyllrb.com/docs/installation/). Follow their instructions and make sure the `jekyll` command works.
+Next install the required gems.
+
+    $ gem install bundler
+    $ bundle install
+
+And then we can use jekyll to preview the site.
 
 ```
     $ jekyll
